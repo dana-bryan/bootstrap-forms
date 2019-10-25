@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rome Quiz</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+
+
+    <div class="row">
+
+      <div class="col-md-8">
+        <h1>Do you know everything about Rome?</h1>
+          <p>Italy is a beautiful country with incredible cities, including Rome. If you're planning to travel to Rome, there are certain facts you should know to appreciate the city even more. Do you think you're ready? Click <a href="https://en.wikipedia.org/wiki/Rome">here</a> to study before taking the quiz.</p>
+
+        <form>
+          <div class="form-group">
+            <label class="form-control-label">What bridge is the only bridge to remain unaltered today from the classical age in Rome? </label>
+            <select class="form-control" name="bridges" id="bridges">
+              <option value="PQC"> Ponte dei Quattro Capi</option>
+              <option value="PC"> Ponte Cestio</option>
+              <option value="PSA"> Ponte Sant'Angelo</option>
+              <option value="PM"> Ponte Milvio</option>
+              <option value="PN"> Ponte Nomentano</option>
+              <option value="PS"> Ponte Sisto</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label> Which of these are historic Roman monuments and sites?</label>
+
+            <div class="form-check">
+              <label class="form-check-label">
+                 <input class="form-check-input" type="checkbox" name="romanMonuments" value="Pantheon">Pantheon
+               </label>
+             </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="romanMonuments" value="Colosseum">Colosseum
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="romanMonuments" value=" pyramidOfCestius">Pyramid of Cestius
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="romanMonuments" value="eiffelTower">Eiffel Tower
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>How many residents does Rome have? </label>
+
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="numberofresidents" value="4million"> 4 million
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="numberofresidents" value="1,564"> 1,564
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="numberofresidents" value="2,872,800"> 2,872,800
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="numberofresidents" value="200,000"> 200,000
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-control-label" for="countryInRome">Which independent country is inside the boundaries of Rome?</label>
+            <input class="form-control" type="text" name="countryInRome" id="countryInRome">
+          </div>
+
+          <div class="form-group">
+            <label class="form-control-label" for="romanPoet">The Roman poet Tibullus first called Rome what in 1st century BC?</label>
+            <input class="form-control" type="text" name="romanPoet" id="romanPoet">
+          </div>
+
+          <div class="form-group">
+            <label class="form-control-label" for="middleAges"> Describe Rome during the Middle Ages </label>
+            <textarea class="form-control" name="middleAges" id="middleAges" rows="8"></textarea>
+          </div>
+
+        <div class="form-group">
+          <input class= "btn btn-primary" type="submit" value="Submit">
+          <input class= "btn btn-secondary" type="reset" value="Reset">
+        </div>
+
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
